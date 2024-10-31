@@ -1,10 +1,10 @@
 # ml-template-tabular
 
 ## Description
-This repo collects guidelines, recommendations and useful links and sources for a ML (supervised or unsupervised) student project using tabular data.
+This repo collects guidelines, recommendations and useful links and sources for a ML (supervised or unsupervised) student project using tabular data. The structure and content of the Jupyter notebooks represent a very high-level outline of a student ML project and should not be considered as an exact recipe.
 
 ## Setting up your workspace
-1. Register and create an account on [GitHub](https://github.com/). _Familiarise youself with this resource as it is going to be the main place for code storage and version control._
+1. Register and create an account on [GitHub](https://github.com/). **Familiarise youself with this resource as it is going to be the main place for code storage and version control.**
 2. Create **public** repo on GitHub, give it a sensible name, make sure you include README.md.
 3. Open your repository, click on the **Code** green button, select 'Codespaces' tab and click 'Create codespace on master'. Codespace looking something like this:
 
@@ -34,17 +34,24 @@ In this project you will obtain dataset (fitting the context of your project con
 
 The **Cross-industry standard process for data mining**, known as **CRISP-DM**, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model [Wiki](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining). Get understanding of the workflow and main steps.
 
-## Credits
-It is ok to reuse someone else's code. It is absolutely not ok to keep quiet about it.
+
+## Required libraries
+
+Essential Python libraries:
+
+[NumPy](https://numpy.org/)
+
+[Pandas](https://pandas.pydata.org/)
+
+[MatPlotLib](https://matplotlib.org/)
+
+[Feature-Engine](https://feature-engine.trainindata.com/en/latest/)
+
+[Scikit-learn](https://scikit-learn.org/stable/index.html)
+
+Depending on the scope of your project you might need other Python packages.
 
 
-
-
-
-
-
-
-## Required packages
 
 
 
@@ -59,14 +66,15 @@ It is ok to reuse someone else's code. It is absolutely not ok to keep quiet abo
 #### Usually go in sequence:
 ---
 `git add --all`
-(or `git add .`)
+(or `git add .`) (add changes to the commit)
 
-`git commit -m "add commit message here"`
+`git commit -m "add commit message here"` (commit changes)
 
-`git push`
+`git push` (push to GitHub)
 
 ---
 
-`git status`
+`git status` (check current commit status)
 
-### VS Code setting up
+## Credits
+**It is ok to reuse someone else's code. It is absolutely not ok to keep quiet about it.**
