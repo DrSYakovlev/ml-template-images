@@ -34,6 +34,11 @@ In this project you will obtain dataset (fitting the context of your project con
 
 The **Cross-industry standard process for data mining**, known as **CRISP-DM**, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model [Wiki](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining). Get understanding of the workflow and main steps.
 
+## Model selection
+
+Use the diagram below to select an appropriate ML model:
+![Model selection flow-chart](./assets/img/model_selection.jpg)
+
 
 ## Required libraries
 
@@ -49,18 +54,29 @@ Essential Python libraries:
 
 [Scikit-learn](https://scikit-learn.org/stable/index.html)
 
-Depending on the scope of your project you might need other Python packages.
+[TensofFlow](https://www.tensorflow.org/)
+
+[Keras](https://keras.io/)
+
+Depending on the scope of your project, you will not need all these packages or you might need something else which is not in this list.
+
+## 'jupyter_notebooks' folder structure
+
+Jupyter notebooks are collected in [separate](/workspaces/ml-template-tabular/jupyter_notebooks). Their names and sequential numbers follow the steps dictated by a structure of typical ML pipeline and CRISP-DM methodology. Depending on the data type and project scope and context, the structure can change a bit but it is recommended to always follow this logic in your project.
 
 
+## Useful links
+[Markdown on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+[Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
+## Where to search for help if you are stuck
 
-### Useful links:
-1. [Markdown on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[Stack Overflow](https://stackoverflow.com/)
 
-2. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+[Discussion section on Kaggle](https://www.kaggle.com/discussions)
 
-### Where to search for help if you are stuck.
+[w3c](https://www.w3schools.com/python/)
 
 ### Git commands:
 #### Usually go in sequence:
