@@ -1,7 +1,7 @@
-# ml-template-tabular
+# ml-template-images
 
 ## Description
-This repo collects guidelines, recommendations and useful links and sources for a ML (supervised or unsupervised) student project using tabular data. The structure and content of the Jupyter notebooks represent a very high-level outline of a student ML project and should not be considered as an exact recipe.
+This repo collects guidelines and useful links and sources for a ML student project using images as input data. The structure and content of the Jupyter notebooks represent a very high-level outline of a student ML project and should not be considered as an exact recipe.
 
 ## Setting up your workspace
 1. Register and create an account on [GitHub](https://github.com/). **Familiarise youself with this resource as it is going to be the main place for code storage and version control.**
@@ -18,10 +18,13 @@ will be created. The colour theme may be different and can be configured.
 7. In the project root directory create two files:
 - .gitignore
 (to list files/folders not to be pushed to GitHub due to size limitation or sensitive information, such as secret keys)
+**!!Do not push databases (datasets) or any other large files (>100MB) to GitHub. Store them locally with the backup copy on an external storage!!**
 - requirements.txt (to list packages required to run the project and indicate their versions for compatibility)
 8. **Familiarise yourself with the [Jupyter Notebok](https://jupyter.org/) as it is going to be your main development tool in this project.**
 
 Your are now pretty much set to start your ML journey.
+
+N.b. There are other options for creating your coding environmeng (see [Useful links](#useful-links)).
 
 ## Data acquisition
 In this project you will obtain dataset (fitting the context of your project context) from [Kaggle](https://www.kaggle.com/)
@@ -70,6 +73,10 @@ Jupyter notebooks are collected in [separate](/workspaces/ml-template-tabular/ju
 
 [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
+[Codeanywhere](https://www.codeanywhere.com/)
+
+[Gitpod](https://www.gitpod.io/)
+
 ## Where to search for help if you are stuck
 
 [Stack Overflow](https://stackoverflow.com/)
@@ -77,6 +84,7 @@ Jupyter notebooks are collected in [separate](/workspaces/ml-template-tabular/ju
 [Discussion section on Kaggle](https://www.kaggle.com/discussions)
 
 [w3c](https://www.w3schools.com/python/)
+
 
 ### Git commands:
 #### Usually go in sequence:

@@ -1,2 +1,3 @@
 kaggle.json
-/inputs/dataset/raw/dataset.csv
+
+# add here pathes to any files you do not want to pushto git
