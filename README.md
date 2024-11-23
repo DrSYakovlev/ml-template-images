@@ -12,13 +12,13 @@ This repo collects guidelines and useful links and sources for a ML student proj
 
 will be created. The colour theme may be different and can be configured.
 
-4. Create jupyter_notebooks folder. This can be done via project explorer of terminal using command line.
-5. In this folder create 1_data_collection.ipynb file. There will be more Jupyter notebooks in the project covering the entire ML pipeline. File format *.ipynb will authomatically be recognised as Jupyter Notebook.
+4. Create jupyter_notebooks folder. This can be done via project explorer or terminal using command line.
+5. In this folder, create 1_data_collection.ipynb file. There will be more Jupyter notebooks in the project covering the entire ML pipeline. File format *.ipynb will authomatically be recognised as Jupyter Notebook.
 6. Open this notebook and select jupyter kernel. **You need to choose Python**
 7. In the project root directory create two files:
 - .gitignore
-(to list files/folders not to be pushed to GitHub due to size limitation or sensitive information, such as secret keys)
-**!!Do not push databases (datasets) or any other large files (>100MB) to GitHub. Store them locally with the backup copy on an external storage!!**
+(to list files/folders not to be pushed on GitHub due to size limitation or sensitive information, such as secret keys).
+<u>Do not push databases (datasets) or any other large files (>100MB) on GitHub. Store them locally with the backup copy on an external storage</u>.
 - requirements.txt (to list packages required to run the project and indicate their versions for compatibility)
 8. **Familiarise yourself with the [Jupyter Notebok](https://jupyter.org/) as it is going to be your main development tool in this project.**
 
@@ -27,15 +27,15 @@ Your are now pretty much set to start your ML journey.
 N.b. There are other options for creating your coding environmeng (see [Useful links](#useful-links)).
 
 ## Data acquisition
-In this project you will obtain dataset (fitting the context of your project context) from [Kaggle](https://www.kaggle.com/)
+In this project you will obtain dataset (fitting the context of your project context) from [Kaggle](https://www.kaggle.com/).
 
 ## ML pipeline concept
 
-**ML pipeline** is the core concept in the field of ML and it is particularly important for tabular data. It is therefore critical to understand all steps which it follows. The is a huge number of books and online sources you can use.
+**ML pipeline** is the core concept in the field of ML. It is therefore critical to understand all steps which it follows. The is a huge number of books and online sources you can use.
 
 ## CRISP-DM
 
-The **Cross-industry standard process for data mining**, known as **CRISP-DM**, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model [Wiki](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining). Get understanding of the workflow and main steps.
+The **Cross-industry standard process for data mining**, known as **CRISP-DM**, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model [Wiki](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining). Get understanding of the workflow and main steps of CRISP-DM process flow.
 
 ## Model selection
 
@@ -65,7 +65,7 @@ Depending on the scope of your project, you will not need all these packages or 
 
 ## 'jupyter_notebooks' folder structure
 
-Jupyter notebooks are collected in [separate](/workspaces/ml-template-tabular/jupyter_notebooks). Their names and sequential numbers follow the steps dictated by a structure of typical ML pipeline and CRISP-DM methodology. Depending on the data type and project scope and context, the structure can change a bit but it is recommended to always follow this logic in your project.
+Jupyter notebooks are collected in [separate](https://github.com/DrSYakovlev/ml-template-images/tree/main/jupyter_notebooks) folder. Their names and sequential numbers follow the steps dictated by a structure of typical ML pipeline and CRISP-DM methodology. Depending on the data type and project scope and context, the structure can change a bit but it is recommended to always follow this logic in your project.
 
 
 ## Useful links
