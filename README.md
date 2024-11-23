@@ -20,7 +20,7 @@ will be created. The colour theme may be different and can be configured.
 (to list files/folders not to be pushed on GitHub due to size limitation or sensitive information, such as secret keys).
 <u>Do not push databases (datasets) or any other large files (>100MB) on GitHub. Store them locally with the backup copy on an external storage</u>.
 - requirements.txt (to list packages required to run the project and indicate their versions for compatibility)
-8. **Familiarise yourself with the [Jupyter Notebok](https://jupyter.org/) as it is going to be your main development tool in this project.**
+8. **Familiarise yourself with the [Jupyter Notebook](https://jupyter.org/) as it is going to be your main development tool in this project.**
 
 Your are now pretty much set to start your ML journey.
 
